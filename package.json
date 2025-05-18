@@ -1,0 +1,30 @@
+{
+  "name": "fastify-passport-playground",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "types": "tsc -p tsconfig.json",
+    "fmt": "prettier --write .",
+    "lint": "eslint . --fix && prettier --write ."
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "fastify-plugin": "^5.0.1",
+    "metautil": "^5.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "eslint": "^9.22.0",
+    "eslint-config-metarhia": "^9.1.1",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  }
+}
