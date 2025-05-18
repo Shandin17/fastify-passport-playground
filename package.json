@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "types": "tsc -p tsconfig.json",
     "fmt": "prettier --write .",
     "lint": "eslint . --fix && prettier --write ."
@@ -15,10 +16,13 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@fastify/passport": "^3.0.2",
+    "@fastify/secure-session": "^8.2.0",
     "dotenv": "^16.4.7",
     "fastify": "^5.2.1",
     "fastify-plugin": "^5.0.1",
-    "metautil": "^5.2.4"
+    "metautil": "^5.2.4",
+    "passport-google-oidc": "^0.1.0"
   },
   "devDependencies": {
     "@types/node": "^22.15.18",
